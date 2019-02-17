@@ -1,0 +1,31 @@
+
+# @Author: ApathyJade <apathyjade@outlook.com>
+# @Version: 0.0.1
+# @Date: 2018-04-28 10:34:11
+# @Last Modified by:   xinyu.wang
+# @Last Modified Time: 2018-04-28 10:34:11
+
+root = true
+
+[*]
+
+# 缩进类型: [tab, space]
+indent_style = space
+
+# 一级缩进数
+indent_size = 2
+
+# tab 缩进数 默认为 indent_size
+#tab_width = 2
+
+# 换行符的表示方式: [lf: 换行, cr: 回车, crlf: 回车换行]
+end_of_line = crlf
+
+# 文件字符集: [utf-8, latin1, utf-8-bom, utf-16be, utf-16le]
+charset = utf-8
+
+# 是否删除换行符前面的空白字符
+trim_trailing_whitespace = true
+
+# 是否在文件最后插入新行
+insert_final_newline = true
