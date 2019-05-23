@@ -84,7 +84,7 @@ export default {
   bottom: 0px;
   width: 100%;
   height: 100%;
-  z-index 999;
+  z-index: 999;
   text-align: center;
   
   &,
@@ -94,7 +94,7 @@ export default {
     background-color: rgba(35, 35, 35, .4);
     transition: all .5s linear;
     .lay {
-      transform scale(1, 1)
+      transform: scale(1, 1);
       transition: all .2s linear;
     }
   }
@@ -106,7 +106,7 @@ export default {
     background-color: rgba(35, 35, 35, 0);
     transition: all .5s linear;
     .lay {
-      transform scale(0, 0)
+      transform: scale(0, 0);
       transition: all .2s linear;
     }
   }
@@ -120,23 +120,22 @@ export default {
   }
 
   .lay {
-    position relative
-    display inline-block
+    position: relative;
+    display: inline-block;
     width: 448px;
-    color #656565;
-    font-size 12px
+    color: #656565;
+    font-size: 12px;
     line-height: 20px;
-    // color: #353535;
     background-color: #fff;
     text-align: left;
     vertical-align: middle;
   }
   .head {
-    padding: 0 24px
+    padding: 0 24px;
     height: 46px;
     line-height: 46px;
     font-size: 14px;
-    font-weight 600
+    font-weight: 600;
     border-bottom: 1px solid #F1F1F1;
   }
   .body {
@@ -203,13 +202,13 @@ export default {
     right: 14px;
     width: 17px;
     height: 17px;
-    cursor pointer;
+    cursor: pointer;
     &:before, 
     &:after{
       position: absolute;
       background: #959595;
       content: ' ';
-      transform: rotate(45deg)
+      transform: rotate(45deg);
       box-shadow: 0 0 0 .1px #959595;
     }
     &:before {
