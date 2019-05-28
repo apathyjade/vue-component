@@ -62,6 +62,7 @@ export default {
       let stopClose = () => {
         isStopClose = true;
       }
+      
       this.$emit('dataType', dataType, stopClose, this.close)
 
       stopClose = null;
